@@ -95,12 +95,31 @@ Sau khi thực thi lệnh `mvn clean test`, hệ thống trả về kết quả 
 
 Thư mục `screenshots/` chứa các ảnh minh chứng cho quá trình kiểm thử, bao gồm:
 
-- Kết quả thực thi test case trên Terminal.
-- Giao diện đăng nhập của website SauceDemo.
-- Giao diện trang sản phẩm sau khi đăng nhập.
-- Giao diện giỏ hàng sau khi thêm sản phẩm.
+## Screenshots
 
-Các ảnh được sử dụng để minh họa quá trình thực hiện và hỗ trợ đối chiếu kết quả kiểm thử.
+### 1. Test Execution Results
+
+Ảnh minh chứng kết quả thực thi các test case tự động bằng Selenium trên Terminal.
+
+![Test Execution Results](screenshots/01-test-results.png)
+
+### 2. SauceDemo Login Page
+
+Giao diện đăng nhập của website SauceDemo được sử dụng trong quá trình kiểm thử.
+
+![SauceDemo Login Page](screenshots/02-saucedemo-login.png)
+
+### 3. Products Page
+
+Giao diện danh sách sản phẩm sau khi đăng nhập thành công, phục vụ kiểm thử các thao tác với sản phẩm.
+
+![SauceDemo Products Page](screenshots/03-products-page.png)
+
+### 4. Shopping Cart
+
+Giao diện giỏ hàng sau khi thêm sản phẩm, dùng để kiểm tra sản phẩm đã được thêm chính xác vào giỏ hàng.
+
+![SauceDemo Shopping Cart](screenshots/04-shopping-cart.png)
 
 ## 9. Báo cáo kiểm thử tự động
 
